@@ -946,6 +946,20 @@
     "@react-aria/utils" "^3.23.2"
     "@react-types/link" "^3.5.3"
 
+"@nextui-org/link@2.0.35":
+  version "2.0.35"
+  resolved "https://registry.yarnpkg.com/@nextui-org/link/-/link-2.0.35.tgz#ce0428a8cc3e9dc0a8a6481bb39f1ea369aea9e8"
+  integrity sha512-0XVUsSsysu+WMssokTlLHiMnjr1N6D2Uh3bIBcdFwSqmTLyq+Llgexlm6Fuv1wADRwsR8/DGFp3Pr826cv2Svg==
+  dependencies:
+    "@nextui-org/react-utils" "2.0.17"
+    "@nextui-org/shared-icons" "2.0.9"
+    "@nextui-org/shared-utils" "2.0.8"
+    "@nextui-org/use-aria-link" "2.0.19"
+    "@react-aria/focus" "3.17.1"
+    "@react-aria/link" "3.7.1"
+    "@react-aria/utils" "3.24.1"
+    "@react-types/link" "3.5.5"
+
 "@nextui-org/listbox@2.1.19":
   version "2.1.19"
   resolved "https://registry.yarnpkg.com/@nextui-org/listbox/-/listbox-2.1.19.tgz#cf552fdbb06971860a4aaff3f709b3ad65a4fe68"
@@ -1093,6 +1107,11 @@
   resolved "https://registry.yarnpkg.com/@nextui-org/react-rsc-utils/-/react-rsc-utils-2.0.12.tgz#a931a2e6a9523e9f11f3397a57cde0861ba9ff7a"
   integrity sha512-s2IG4pM1K+kbm6A2g3UpqrS592AExpGixtZNPJ2lV5+UQi1ld3vb4EiBIOViZMoSCNCoNdaeO5Yqo6cKghwCPA==
 
+"@nextui-org/react-rsc-utils@2.0.14":
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/@nextui-org/react-rsc-utils/-/react-rsc-utils-2.0.14.tgz#277523854e594858c0b713df783f2d5228915f83"
+  integrity sha512-s0GVgDhScyx+d9FtXd8BXf049REyaPvWsO4RRr7JDHrk91NlQ11Mqxka9o+8g5NX0rphI0rbe3/b1Dz+iQRx3w==
+
 "@nextui-org/react-utils@2.0.13":
   version "2.0.13"
   resolved "https://registry.yarnpkg.com/@nextui-org/react-utils/-/react-utils-2.0.13.tgz#9710130e6c7299b70dc92b1dae685864353fc981"
@@ -1100,6 +1119,14 @@
   dependencies:
     "@nextui-org/react-rsc-utils" "2.0.12"
     "@nextui-org/shared-utils" "2.0.5"
+
+"@nextui-org/react-utils@2.0.17":
+  version "2.0.17"
+  resolved "https://registry.yarnpkg.com/@nextui-org/react-utils/-/react-utils-2.0.17.tgz#3ed7903496ca8a9f5678ad816a2b24f1cd0581f9"
+  integrity sha512-U/b49hToVfhOM4dg4n57ZyUjLpts4JogQ139lfQBYPTb8z/ATNsJ3vLIqW5ZvDK6L0Er+JT11UVQ+03m7QMvaQ==
+  dependencies:
+    "@nextui-org/react-rsc-utils" "2.0.14"
+    "@nextui-org/shared-utils" "2.0.8"
 
 "@nextui-org/react@2.3.6":
   version "2.3.6"
@@ -1196,10 +1223,20 @@
   resolved "https://registry.yarnpkg.com/@nextui-org/shared-icons/-/shared-icons-2.0.7.tgz#35bcfa530f2c3d0a5ad3da73a00d2903dad45e2b"
   integrity sha512-GsotFeRbwxhc2eQt7Z6edcVYfklpaSzo93Xodryb82SokRaSOKt9BEpUXgk2TExAvJMjDnB4T8nk8ANWsFaXOw==
 
+"@nextui-org/shared-icons@2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@nextui-org/shared-icons/-/shared-icons-2.0.9.tgz#ecc674ec51ba7f0570ee821aed317fba4cc70376"
+  integrity sha512-WG3yinVY7Tk9VqJgcdF4V8Ok9+fcm5ey7S1els7kujrfqLYxtqoKywgiY/7QHwZlfQkzpykAfy+NAlHkTP5hMg==
+
 "@nextui-org/shared-utils@2.0.5":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@nextui-org/shared-utils/-/shared-utils-2.0.5.tgz#f04072240f35b0a5748fe38b4ec1c285231d6074"
   integrity sha512-aFc/CUL8RVfBh0IotIpxkpKjyUPc/zJaMJd5pRCQA1kIpKLdSrlh3//MLYMaP/fo/NQtE3DPeXqfKhHRr1fkEw==
+
+"@nextui-org/shared-utils@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@nextui-org/shared-utils/-/shared-utils-2.0.8.tgz#6e6e71a067c273581839c2226fd9fb4e1e3a3410"
+  integrity sha512-ZEtoMPXS+IjT8GvpJTS9IWDnT1JNCKV+NDqqgysAf1niJmOFLyJgl6dh/9n4ufcGf1GbSEQN+VhJasEw7ajYGQ==
 
 "@nextui-org/skeleton@2.0.27":
   version "2.0.27"
@@ -1401,6 +1438,17 @@
     "@react-aria/utils" "^3.23.2"
     "@react-types/link" "^3.5.3"
     "@react-types/shared" "^3.22.1"
+
+"@nextui-org/use-aria-link@2.0.19":
+  version "2.0.19"
+  resolved "https://registry.yarnpkg.com/@nextui-org/use-aria-link/-/use-aria-link-2.0.19.tgz#c0d63e65b5ecca362120b12df0fff770b2e19e06"
+  integrity sha512-ef61cJLlwcR4zBWiaeHZy4K18juFjUup2SslfLIAiZz3kVosBCGKmkJkw1SASYY8+D/oUc2B6BFIk25YEsRKRw==
+  dependencies:
+    "@react-aria/focus" "3.17.1"
+    "@react-aria/interactions" "3.21.3"
+    "@react-aria/utils" "3.24.1"
+    "@react-types/link" "3.5.5"
+    "@react-types/shared" "3.23.1"
 
 "@nextui-org/use-aria-menu@2.0.2":
   version "2.0.2"
@@ -1908,7 +1956,18 @@
     "@react-types/shared" "^3.27.0"
     "@swc/helpers" "^0.5.0"
 
-"@react-aria/focus@^3.14.3", "@react-aria/focus@^3.16.2", "@react-aria/focus@^3.19.1":
+"@react-aria/focus@3.17.1":
+  version "3.17.1"
+  resolved "https://registry.yarnpkg.com/@react-aria/focus/-/focus-3.17.1.tgz#c796a188120421e2fedf438cadacdf463c77ad29"
+  integrity sha512-FLTySoSNqX++u0nWZJPPN5etXY0WBxaIe/YuL/GTEeuqUIuC/2bJSaw5hlsM6T2yjy6Y/VAxBcKSdAFUlU6njQ==
+  dependencies:
+    "@react-aria/interactions" "^3.21.3"
+    "@react-aria/utils" "^3.24.1"
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+    clsx "^2.0.0"
+
+"@react-aria/focus@^3.14.3", "@react-aria/focus@^3.16.2", "@react-aria/focus@^3.17.1", "@react-aria/focus@^3.19.1":
   version "3.19.1"
   resolved "https://registry.yarnpkg.com/@react-aria/focus/-/focus-3.19.1.tgz#6655e53d04eb7b46c8d39e671013d1c17fca5ba2"
   integrity sha512-bix9Bu1Ue7RPcYmjwcjhB14BMu2qzfJ3tMQLqDc9pweJA66nOw8DThy3IfVr8Z7j2PHktOLf9kcbiZpydKHqzg==
@@ -1963,7 +2022,17 @@
     "@react-types/shared" "^3.27.0"
     "@swc/helpers" "^0.5.0"
 
-"@react-aria/interactions@^3.19.0", "@react-aria/interactions@^3.19.1", "@react-aria/interactions@^3.21.1", "@react-aria/interactions@^3.23.0":
+"@react-aria/interactions@3.21.3":
+  version "3.21.3"
+  resolved "https://registry.yarnpkg.com/@react-aria/interactions/-/interactions-3.21.3.tgz#a2a3e354a8b894bed7a46e1143453f397f2538d7"
+  integrity sha512-BWIuf4qCs5FreDJ9AguawLVS0lV9UU+sK4CCnbCNNmYqOWY+1+gRXCsnOM32K+oMESBxilAjdHW5n1hsMqYMpA==
+  dependencies:
+    "@react-aria/ssr" "^3.9.4"
+    "@react-aria/utils" "^3.24.1"
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+
+"@react-aria/interactions@^3.19.0", "@react-aria/interactions@^3.19.1", "@react-aria/interactions@^3.21.1", "@react-aria/interactions@^3.21.3", "@react-aria/interactions@^3.23.0":
   version "3.23.0"
   resolved "https://registry.yarnpkg.com/@react-aria/interactions/-/interactions-3.23.0.tgz#28fce22310faeaa114978728045fb2b4fe80acc8"
   integrity sha512-0qR1atBIWrb7FzQ+Tmr3s8uH5mQdyRH78n0krYaG8tng9+u1JlSi8DGRSaC9ezKyNB84m7vHT207xnHXGeJ3Fg==
@@ -1980,6 +2049,18 @@
   dependencies:
     "@react-aria/utils" "^3.27.0"
     "@react-types/shared" "^3.27.0"
+    "@swc/helpers" "^0.5.0"
+
+"@react-aria/link@3.7.1":
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/@react-aria/link/-/link-3.7.1.tgz#ae75feebc5c6f40e1031abf57f3125d45882e976"
+  integrity sha512-a4IaV50P3fXc7DQvEIPYkJJv26JknFbRzFT5MJOMgtzuhyJoQdILEUK6XHYjcSSNCA7uLgzpojArVk5Hz3lCpw==
+  dependencies:
+    "@react-aria/focus" "^3.17.1"
+    "@react-aria/interactions" "^3.21.3"
+    "@react-aria/utils" "^3.24.1"
+    "@react-types/link" "^3.5.5"
+    "@react-types/shared" "^3.23.1"
     "@swc/helpers" "^0.5.0"
 
 "@react-aria/link@^3.6.5", "@react-aria/link@^3.7.8":
@@ -2128,7 +2209,7 @@
   dependencies:
     "@swc/helpers" "^0.5.0"
 
-"@react-aria/ssr@^3.9.2", "@react-aria/ssr@^3.9.7":
+"@react-aria/ssr@^3.9.2", "@react-aria/ssr@^3.9.4", "@react-aria/ssr@^3.9.7":
   version "3.9.7"
   resolved "https://registry.yarnpkg.com/@react-aria/ssr/-/ssr-3.9.7.tgz#d89d129f7bbc5148657e6c952ac31c9353183770"
   integrity sha512-GQygZaGlmYjmYM+tiNBA5C6acmiDWF52Nqd40bBp0Znk4M4hP+LTmI0lpI1BuKMw45T8RIhrAsICIfKwZvi2Gg==
@@ -2232,6 +2313,17 @@
     "@react-types/shared" "^3.27.0"
     "@react-types/tooltip" "^3.4.14"
     "@swc/helpers" "^0.5.0"
+
+"@react-aria/utils@3.24.1":
+  version "3.24.1"
+  resolved "https://registry.yarnpkg.com/@react-aria/utils/-/utils-3.24.1.tgz#9d16023f07c23c41793c9030a9bd203a9c8cf0a7"
+  integrity sha512-O3s9qhPMd6n42x9sKeJ3lhu5V1Tlnzhu6Yk8QOvDuXf7UGuUjXf9mzfHJt1dYzID4l9Fwm8toczBzPM9t0jc8Q==
+  dependencies:
+    "@react-aria/ssr" "^3.9.4"
+    "@react-stately/utils" "^3.10.1"
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+    clsx "^2.0.0"
 
 "@react-aria/utils@^3.21.0", "@react-aria/utils@^3.21.1", "@react-aria/utils@^3.23.2", "@react-aria/utils@^3.24.1", "@react-aria/utils@^3.27.0":
   version "3.27.0"
@@ -2489,7 +2581,7 @@
     "@react-types/shared" "^3.27.0"
     "@swc/helpers" "^0.5.0"
 
-"@react-stately/utils@^3.10.5", "@react-stately/utils@^3.8.0", "@react-stately/utils@^3.9.1":
+"@react-stately/utils@^3.10.1", "@react-stately/utils@^3.10.5", "@react-stately/utils@^3.8.0", "@react-stately/utils@^3.9.1":
   version "3.10.5"
   resolved "https://registry.yarnpkg.com/@react-stately/utils/-/utils-3.10.5.tgz#47bb91cd5afd1bafe39353614e5e281b818ebccc"
   integrity sha512-iMQSGcpaecghDIh3mZEpZfoFH3ExBwTtuBEcvZ2XnGzCgQjeYXcMdIUwAfVQLXFTdHUHGF6Gu6/dFrYsCzySBQ==
@@ -2582,7 +2674,14 @@
   dependencies:
     "@react-types/shared" "^3.27.0"
 
-"@react-types/link@^3.5.10", "@react-types/link@^3.5.3":
+"@react-types/link@3.5.5":
+  version "3.5.5"
+  resolved "https://registry.yarnpkg.com/@react-types/link/-/link-3.5.5.tgz#5ed829aa32f226fe62efb0d906b1926c110daf02"
+  integrity sha512-G6P5WagHDR87npN7sEuC5IIgL1GsoY4WFWKO4734i2CXRYx24G9P0Su3AX4GA3qpspz8sK1AWkaCzBMmvnunfw==
+  dependencies:
+    "@react-types/shared" "^3.23.1"
+
+"@react-types/link@^3.5.10", "@react-types/link@^3.5.3", "@react-types/link@^3.5.5":
   version "3.5.10"
   resolved "https://registry.yarnpkg.com/@react-types/link/-/link-3.5.10.tgz#17fa4a543fdeb1c3bdc268664073c597b759a266"
   integrity sha512-IM2mbSpB0qP44Jh1Iqpevo7bQdZAr0iDyDi13OhsiUYJeWgPMHzGEnQqdBMkrfQeOTXLtZtUyOYLXE2v39bhzQ==
@@ -2636,6 +2735,11 @@
   version "3.21.0"
   resolved "https://registry.yarnpkg.com/@react-types/shared/-/shared-3.21.0.tgz#1af41fdf7dfbdbd33bbc1210617c43ed0d4ef20c"
   integrity sha512-wJA2cUF8dP4LkuNUt9Vh2kkfiQb2NLnV2pPXxVnKJZ7d4x2/7VPccN+LYPnH8m0X3+rt50cxWuPKQmjxSsCFOg==
+
+"@react-types/shared@3.23.1":
+  version "3.23.1"
+  resolved "https://registry.yarnpkg.com/@react-types/shared/-/shared-3.23.1.tgz#2f23c81d819d0ef376df3cd4c944be4d6bce84c3"
+  integrity sha512-5d+3HbFDxGZjhbMBeFHRQhexMFt4pUce3okyRtUVKbbedQFUrtXSBg9VszgF2RTeQDKDkMCIQDtz5ccP/Lk1gw==
 
 "@react-types/shared@^3.21.0", "@react-types/shared@^3.22.1", "@react-types/shared@^3.23.1", "@react-types/shared@^3.27.0":
   version "3.27.0"
