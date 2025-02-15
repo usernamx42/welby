@@ -1,8 +1,9 @@
 'use client';
 
 import { Select, SelectItem } from '@nextui-org/select';
+import { ChangeEvent } from 'react';
 import { Language } from '@bigfive-org/results';
-import { useRouter, usePathname } from '@/navigation';
+import { useRouter } from '@/navigation';
 
 export const ReportLanguageSwitch = ({
   language,
@@ -12,12 +13,10 @@ export const ReportLanguageSwitch = ({
   availableLanguages: Language[];
 }) => {
   const router = useRouter();
-  const pathname = usePathname();
 
-  function onSelectChange(value: string | string[]) {
-    const selectedLanguage = Array.isArray(value) ? value[0] : value;
-    const currentPath = pathname || '/';
-    router.push(`${currentPath}?lang=${selectedLanguage}`);
+  function onSelectChange(event: ChangeEvent<HTMLSelectElement>) {
+    const selectedLanguage = event.target.value;
+    router.push(`?lang=${selectedLanguage}`);
     router.refresh();
   }
 

@@ -67,7 +67,7 @@ export const SonarPulse: FC<SonarPulseProps> = ({
     }
 
     return circles;
-  }, [rgbaColors, circlesCount, size]);
+  }, [rgbaColors, circlesCount]);
 
   if (isSSR) {
     return null;

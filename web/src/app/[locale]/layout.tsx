@@ -87,10 +87,7 @@ export default async function RootLayout({
 }) {
   const gaId = process.env.NEXT_PUBLIC_ANALYTICS_ID || '';
   unstable_setRequestLocale(locale);
-
-  // Move this to a client component or create a wrapper component
-  // that handles the direction
-  const direction = locale ? (isRtlLang(locale) ? 'rtl' : 'ltr') : 'ltr';
+  const direction = useTextDirection(locale);
 
   const navItems = await getNavItems({ locale, linkType: 'navItems' });
   const navMenuItems = await getNavItems({ locale, linkType: 'navMenuItems' });

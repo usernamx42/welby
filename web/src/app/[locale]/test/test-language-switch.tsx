@@ -1,8 +1,9 @@
 'use client';
 
 import { Select, SelectItem } from '@nextui-org/select';
+import { ChangeEvent } from 'react';
 import { Language } from '@bigfive-org/questions';
-import { useRouter, usePathname } from '@/navigation';
+import { useRouter } from '@/navigation';
 
 interface TestLanguageSwitchProps {
   availableLanguages: Language[];
@@ -14,12 +15,10 @@ export const TestLanguageSwitch = ({
   language
 }: TestLanguageSwitchProps) => {
   const router = useRouter();
-  const pathname = usePathname();
 
-  function onSelectChange(value: string | string[]) {
-    const selectedLanguage = Array.isArray(value) ? value[0] : value;
-    const currentPath = pathname || '/';
-    router.push(`${currentPath}?lang=${selectedLanguage}`);
+  function onSelectChange(event: ChangeEvent<HTMLSelectElement>) {
+    const selectedLanguage = event.target.value;
+    router.push(`?lang=${selectedLanguage}`);
     router.refresh();
   }
 
@@ -35,9 +34,9 @@ export const TestLanguageSwitch = ({
         label='Survey language'
         items={availableLanguages}
       >
-        {(item) => (
-          <SelectItem key={item.id} value={item.id}>
-            {item.text}
+        {(language) => (
+          <SelectItem key={language.id} value={language.id}>
+            {language.text}
           </SelectItem>
         )}
       </Select>

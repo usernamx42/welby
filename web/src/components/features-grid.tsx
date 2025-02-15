@@ -53,15 +53,11 @@ export const FeaturesGrid = ({
     }
 
     if (feat.isExternal) {
-      const url = feat.href.startsWith('http')
-        ? feat.href
-        : `https://${feat.href}`;
-      window.open(url, '_blank', 'noopener,noreferrer');
+      window.open(feat.href, '_blank');
+
       return;
     }
-
-    const path = feat.href.startsWith('/') ? feat.href : `/${feat.href}`;
-    router.push(path);
+    router.push(feat.href);
   };
 
   return (
