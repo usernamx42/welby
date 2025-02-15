@@ -279,7 +279,7 @@ export const Survey = ({
           </Button>
         )}
 
-        {isDev && !isTestDone && (
+        {!isTestDone && (
           <Button color='primary' onClick={skipToEnd}>
             Skip to end (dev)
           </Button>
